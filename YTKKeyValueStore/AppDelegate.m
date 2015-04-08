@@ -28,6 +28,9 @@
     NSDictionary *queryUser = [store getObjectById:key fromTable:tableName];
     NSLog(@"query data result: %@", queryUser);
     
+    
+    
+    
     return YES;
 }
 
